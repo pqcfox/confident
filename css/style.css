@@ -1,0 +1,98 @@
+html, body {
+    background-color: #404040;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.title {
+    color: #E0E0E0;
+    font-size: 10vw;
+    text-align: center;
+    margin: 8vw auto 2vw;
+}
+
+.subtitle {
+    color: #A0A0A0;
+    font-size: 4vw;
+    text-align: center;
+    margin: 2vw auto 4vw;
+}
+
+.content {
+    padding-bottom: 1.75vh;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 1.75vh;
+    width: 100%;
+    background-color: #505050;
+    border-top: 2px solid #606060;
+    padding: 1vh;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer span {
+    vertical-align: text-top;
+    color: #A0A0A0;
+    font-size: 1.5vh;
+    margin: auto 1vw auto;
+}
+
+.console {
+    position: absolute; 
+    background-color: #464646; 
+    border: 3px solid #C0C0C0;
+    border-radius: 15px;
+    width: 70%;
+    height: 25vw;
+    left: 50%;
+    margin-left: -35%;
+}
+
+.jqconsole {
+    margin: 0 auto;
+    padding: 10px;
+    color: #E0E0E0;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 90%;
+    line-height: 120%;
+}
+
+.jqconsole-cursor {
+    background-color: gray;
+}
+
+.jqconsole-blurred .jqconsole-cursor {
+    background-color: #666;
+}
+
+.jqconsole-prompt {
+    color: #A0A0A0;
+}
+
+.jqconsole-old-prompt {
+    color: #A0A0A0;
+    font-weight: normal;
+}
+
+.jqconsole-input {
+    color: #dd0;
+}
+
+.jqconsole-old-input {
+    color: #bb0;
+}
+
+.jqconsole-output {
+    color: white;
+}
